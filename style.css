@@ -1,14 +1,57 @@
 .box-shadow {
-    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
-    }
-    .container {
-        max-width: 960px;
-      }
-      
-      .border-top { border-top: 1px solid #e5e5e5; }
-      .border-bottom { border-bottom: 1px solid #e5e5e5; }
-      .border-top-gray { border-top-color: #adb5bd; }
-      
-      .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
-      
-      .lh-condensed { line-height: 1.25; }
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+.container {
+  max-width: 960px;
+  margin-top: 80px;
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+.lh-condensed {
+  line-height: 1.25;
+}
+.red {
+  color: #cd4541;
+}
+.typewrite {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-section {
+  max-width: 1000px;
+}
+.course-section {
+  display: flex;
+  justify-content: center;
+  background-color: #cd4541;
+  padding-top:20px;
+}
+
+.learn-form {
+  
+  display: flex;
+  justify-content: center;
+  padding-top:50px;
+  padding-bottom: 20px;
+}
+.form-section {
+  width: 1000px;
+}
+
+.title {
+  color:#cd4541;
+  font-weight: bold;
+  margin-bottom: 20px;
+}

@@ -35,7 +35,7 @@
     </nav>
     <header class=" text-center, mx-auto, mt-5, py-5">
         <div class="container">
-            <img class="my-2" src="https://i.imgur.com/hViW80o.png" alt="CS-logo" />
+            <img class="my-2" src="img/logo.png" alt="CS-logo" />
             <h1 class="display-4 mb-4 text-danger font-weight-normal">
                 Course Pricing
             </h1>
@@ -47,9 +47,17 @@
                 to 9 PM and
                 build real projects and getreal experience.
             </p>
+            <p class="typewrite red" data-period="2000" data-type='[ 
+            "Ready to change your life?", 
+            "What are you waiting for?", 
+            "Top-Rated Programming Courses Starting April 2020",
+            "Join CoderSchool Today!"
+            ]'>
+            </p>
         </div>
     </header>
-    <section>
+    <section class="course-section">
+        <div class="card-section">
         <div class="card-deck text-center">
             <div class="card mb-4 box-shadow">
                 <div class="card-header bg-transparent"> <img src="https://svgshare.com/i/6Rb.svg" alt="web-banner"
@@ -72,7 +80,7 @@
                     </div>
             </div>
             <div class="card mb-4 box-shadow">
-                <div class="card-header bg-transparent"> <img src="https://i.imgur.com/gBBbwgH.png" alt="react-banner"
+                <div class="card-header bg-transparent"> <img src="img/react.png" alt="react-banner"
                         width="120px"></div>
                 <div class="card-body d-flex flex-column">
                         <h3 class="card-title">Web Design Bootcamp</h3>
@@ -91,7 +99,7 @@
                 </div>
             </div>
             <div class="card mb-4 box-shadow">
-                <div class="card-header bg-transparent"> <img src="https://i.imgur.com/lLtWDST.png" alt="data-banner"
+                <div class="card-header bg-transparent"> <img src="img/web.png" alt="data-banner"
                         width="120px"></div>
                 <div class="card-body d-flex flex-column">
                         <h3 class="card-title">Web Design Bootcamp</h3>
@@ -111,9 +119,65 @@
                 </div>
             </div>
         </div>
+    </div>
+    
+    </section>
+    <section class="learn-form">
+        <div class="form-section">
+            <h1 class="title">Learn More?</h1>
+            <form>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputEmail4">First name</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputPassword4">Last name</label>
+                    <input type="text" class="form-control" id="inputPassword4">
+                  </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputEmail4">Email</label>
+                      <input type="email" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="inputPassword4">Phone number</label>
+                      <input type="text" class="form-control" id="inputPassword4">
+                    </div>
+                  </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputCity">Address</label>
+                    <input type="text" class="form-control" id="inputCity">
+                  </div>
+                  <div class="form-group col-md-4">
+                    <label for="inputState">City</label>
+                    <select id="inputState" class="form-control">
+                      <option selected>Choose...</option>
+                      <option>Ho chi minh</option>
+                      <option>Hanoi</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-2">
+                    <label for="inputZip">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Check me out
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-danger">Learn More</button>
+              </form>
+        </div>
     </section>
     <footer class="pt-4 my-md-5 pt-md-5 border-top">
-        <div class="container">
+        <div class="container footer-container">
             <div class="row">
                 <div class="col-12 col-md">
                     <img class="mb-2" src="https://i.imgur.com/hViW80o.png" alt="" width="24" height="24">
@@ -165,6 +229,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+        <script src="typewrite.js"></script>
 </body>
 
 </html>
